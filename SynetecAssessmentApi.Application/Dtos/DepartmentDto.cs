@@ -1,4 +1,4 @@
-﻿namespace SynetecAssessmentApi.Dtos
+﻿namespace SynetecAssessmentApi.Application.Dtos
 {
     public class DepartmentDto
     {

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SynetecAssessmentApi</name>
+    </assembly>
+    <members>
+        <member name="M:SynetecAssessmentApi.Controllers.BonusPoolController.CalculateBonus(SynetecAssessmentApi.Application.Dtos.CalculateBonusDto)">
+            <summary>
+            Calculate Bonus
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SynetecAssessmentApi.Controllers.DepartmentController">
+            <summary>
+            Department Controller
+            </summary>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.DepartmentController.GetAll">
+            <summary>
+            Get all departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.DepartmentController.Get(System.Int32)">
+            <summary>
+            Get department by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.DepartmentController.Post(SynetecAssessmentApi.Application.Dtos.DepartmentDto)">
+            <summary>
+            Add new department
+            </summary>
+            <param name="requestDepartment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.DepartmentController.Put(System.Int32,SynetecAssessmentApi.Application.Dtos.DepartmentDto)">
+            <summary>
+            Update department
+            </summary>
+            <param name="id"></param>
+            <param name="requestDepartment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.DepartmentController.Delete(System.Int32)">
+            <summary>
+            Delete department
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SynetecAssessmentApi.Controllers.EmployeeController">
+            <summary>
+            Employee Controller
+            </summary>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get all employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.EmployeeController.Get(System.Int32)">
+            <summary>
+            Get employee by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.EmployeeController.Post(SynetecAssessmentApi.Application.RequestModels.EmployeeRequestModel)">
+            <summary>
+            Add new employee
+            </summary>
+            <param name="requestEmployee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.EmployeeController.Put(System.Int32,SynetecAssessmentApi.Application.RequestModels.EmployeeRequestModel)">
+            <summary>
+            Update employee
+            </summary>
+            <param name="id"></param>
+            <param name="requestEmployee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SynetecAssessmentApi.Controllers.EmployeeController.Delete(System.Int32)">
+            <summary>
+            Delete employee
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,10 +1,10 @@
-﻿namespace SynetecAssessmentApi.Dtos
+﻿namespace SynetecAssessmentApi.Application.RequestModels
 {
-    public class EmployeeDto
+    public class EmployeeRequestModel
     {
         public string Fullname { get; set; }
         public string JobTitle { get; set; }
         public int Salary { get; set; }
-        public DepartmentDto Department { get; set; }
+        public int DepartmentId { get; set; }
     }
 }

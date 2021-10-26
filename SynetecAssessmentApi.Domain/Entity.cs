@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SynetecAssessmentApi.Domain
+﻿namespace SynetecAssessmentApi.Domain
 {
     public abstract class Entity
     {
